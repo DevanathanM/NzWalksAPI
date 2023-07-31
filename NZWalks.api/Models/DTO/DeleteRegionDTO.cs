@@ -1,0 +1,9 @@
+﻿namespace NZWalks.api.Models.DTO
+{
+    public class DeleteRegionDTO
+    {
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public string? RegionImageUrl { get; set; }
+    }
+}
